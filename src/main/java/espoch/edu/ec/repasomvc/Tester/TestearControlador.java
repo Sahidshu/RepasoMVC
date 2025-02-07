@@ -4,10 +4,13 @@
  */
 package espoch.edu.ec.repasomvc.Tester;
 
+import espoch.edu.ec.repasomvc.controlador.Controlador;
+
 /**
  *
  * @author user
  */
 public class TestearControlador {
     
+        
 }

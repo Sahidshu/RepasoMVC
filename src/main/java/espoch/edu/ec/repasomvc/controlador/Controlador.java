@@ -4,45 +4,37 @@
  */
 package espoch.edu.ec.repasomvc.controlador;
 
+import espoch.edu.ec.repasomvc.vista.Principal;
+
 /**
  *
  * @author sahid
  */
 public class Controlador {
-    
-  /*  private Principal principal;
-    
+    private Principal objPrincipal;
+   // private TesterController testerController;
 
-    public Controlador(Principal principal) {
-        this.principal = principal;
+    public Controlador(Principal objPrincipal) {
+        this.objPrincipal = objPrincipal;
+       // this.testerController = new TesterController();
     }
-    
-    
-    public TesterControler(Principal principal) {
-        this.principal = principal;
-        this.testerControlador =  new TesterControler(principal);
-    }
-    
-    
- //dirije a cada unom de las funciones
-    public void ahgregarTarea(){
-        //ulizamocs  para errores, como por ejemplo si los compos estan vacios 
-        try{      
+   /* 
+    public void agregarTarea(){
+        try{
+          TesterController testerController = new TesterController();
+           Tarea objTarea = new Tarea();
+            objTarea.setTitulo(this.objPrincipal.getTitulo());
+            objTarea.setDescripcion (this.objPrincipal.getDescripcion());
+            objTarea.setEstado(this.objPrincipal.getEstado());
             
-            objTarea.setTitulo(this.principal.getTitle());
-            objTarea.setDescripcion(this.principal.getDescripcion());
-            objTarea.setEstado(this.principal.getEstado()));
-                  
-        if (this.principal != null)
-            testercontroler.prueba(objTarea);
+            if (this.objPrincipal != null){
+                testerController.prueba(objTarea);
+            }
             
-        } catch (Exception e){
+        }catch (Exception e){
             
         }
-        
-    }*/
-    
-
-    
+    }  */
     
 }
+    
