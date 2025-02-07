@@ -12,26 +12,27 @@ import espoch.edu.ec.repasomvc.vista.Principal;
  */
 public class Controlador {
     private Principal objPrincipal;
-   // private TesterController testerController;
+   // private TestearControlador testearControlador;
 
     public Controlador(Principal objPrincipal) {
         this.objPrincipal = objPrincipal;
-       // this.testerController = new TesterController();
+       // this.testearCpntrolador = new TestearControlador();
     }
    /* 
     public void agregarTarea(){
         try{
-          TesterController testerController = new TesterController();
+          TestearControlador testearControlador = new TestearControlador();
            Tarea objTarea = new Tarea();
             objTarea.setTitulo(this.objPrincipal.getTitulo());
             objTarea.setDescripcion (this.objPrincipal.getDescripcion());
             objTarea.setEstado(this.objPrincipal.getEstado());
             
             if (this.objPrincipal != null){
-                testerController.prueba(objTarea);
+                testearControlador.prueba(objTarea);
             }
             
         }catch (Exception e){
+    
             
         }
     }  */
