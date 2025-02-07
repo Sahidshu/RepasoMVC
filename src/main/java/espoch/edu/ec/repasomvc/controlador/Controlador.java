@@ -4,10 +4,39 @@
  */
 package espoch.edu.ec.repasomvc.controlador;
 
+import espoch.edu.ec.repasomvc.modelo.Tarea;
+import espoch.edu.ec.repasomvc.tester.TesterController;
+import espoch.edu.ec.repasomvc.vista.Principal;
+
+
 /**
  *
  * @author sahid
  */
 public class Controlador {
+    private Principal objPrincipal;
+   // private TesterController testerController;
+
+    public Controlador(Principal objPrincipal) {
+        this.objPrincipal = objPrincipal;
+       // this.testerController = new TesterController();
+    }
+    
+    public void agregarTarea(){
+        try{
+            TesterController testerController = new TesterController();
+            Tarea objTarea = new Tarea();
+            objTarea.setTitulo(this.objPrincipal.getTitulo());
+            objTarea.setDescripcion (this.objPrincipal.getDescripcion());
+            objTarea.setEstado(this.objPrincipal.getEstado());
+            
+            if (this.objPrincipal != null){
+                testerController.prueba(objTarea);
+            }
+            
+        }catch (Exception e){
+            
+        }
+    }
     
 }

@@ -4,6 +4,8 @@
 
 package espoch.edu.ec.repasomvc;
 
+import espoch.edu.ec.repasomvc.vista.Principal;
+
 /**
  *
  * @author sahid
@@ -11,6 +13,7 @@ package espoch.edu.ec.repasomvc;
 public class RepasoMVC {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Principal objPrincipal = new Principal();
+        objPrincipal.setVisible(true);
     }
 }
